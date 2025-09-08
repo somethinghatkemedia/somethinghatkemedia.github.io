@@ -4,7 +4,8 @@
 
 .heading-menu {
   color: rgb(255, 255, 255);
-  font-family: "Nunito Sans", sans-serif;font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-size: 1.2rem;
@@ -40,7 +41,6 @@
   margin: 0 auto;
   padding: 2rem 0;
 }
-
 
 .icon-carousel .swiper-slide {
   display: flex;
@@ -79,7 +79,6 @@
   margin-bottom: 2rem;
 }
 
-
 .header-section header > div,
 .header-section header > ul,
 .header-section header > button {
@@ -99,4 +98,26 @@
 .header-section header > div {
   margin-left: 6rem;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-banner-image {
+    height: 30rem;
+
+    object-fit: cover;
+    margin-top: -10rem;
+    z-index: -200;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-illustrations {
+    width: 5rem;
+  }
+}
+
+.testimonial-section {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
