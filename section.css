@@ -1,0 +1,23 @@
+.section-divs-1 {
+  background-color: #003bc7;
+}
+
+.section-divs-2 {
+  background-color: #ffde59;
+}
+
+.section-divs-3 {
+  background-color: #6d3fc8;
+}
+
+.section-divs-4 {
+  background-color: #bdf326;
+}
+
+.section-divs-5 {
+  background-image: url('assets/illustrations/illustration-6-1.png');
+  background-size: cover;       /* Scales image to cover the div */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 40rempx;
+}

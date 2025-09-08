@@ -1,0 +1,133 @@
+.services-section {
+  background-image: url('assets/backgrounds/background-2.png');
+  background-size: cover;       /* Scales image to cover the div */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 40rempx;
+}
+
+
+
+.services-heading,
+.service-heading {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.ad-content-1 {
+  text-align: left;            /* Aligns text to the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;     /* Aligns button and other elements to the left */
+  padding: 2rem;               /* Optional: adds spacing */
+}
+
+.ad-content-2 {
+  text-align: right;            /* Aligns text to the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;     /* Aligns button and other elements to the left */
+  padding: 2rem;               /* Optional: adds spacing */
+}
+
+.services-heading-text,
+.services-heading-text-2 {
+  font-size: 4rem;
+  line-height: 1;
+  color: #ffde59;
+}
+
+.services-heading-text-2 {
+  color: #ff6ed6;
+}
+
+.services-description {
+  color: white;
+  margin: 2rem 0rem;
+  font-family: "Nunito Sans", sans-serif; 
+  font-size: 1.5rem
+}
+
+.services-description-2 {
+  color: rgb(0, 0, 0);
+  margin: 2rem 0rem;
+  font-family: "Nunito Sans", sans-serif; 
+  font-size: 1.5rem
+}
+
+.section-divs-1 {
+  background-color: #003bc7;
+}
+
+.section-illustrations {
+  width: 30rem;
+}
+
+.services-heading-text-seo {
+  color: #ff6ed6;
+  text-shadow:
+    -2px -2px 0 #ffffff,  /* top-left */
+     2px -2px 0 #ffffff,  /* top-right */
+    -2px  2px 0 #ffffff,  /* bottom-left */
+     2px  2px 0 #ffffff,  /* bottom-right */
+     0px  2px 0 #ffffff,  /* bottom */
+     0px -2px 0 #ffffff,  /* top */
+     2px  0px 0 #ffffff,  /* right */
+    -2px  0px 0 #ffffff;
+}
+
+.services-heading-text-smm {
+  text-shadow:
+    -2px -2px 0 #80005b,  /* top-left */
+     2px -2px 0 #80005b,  /* top-right */
+    -2px  2px 0 #80005b,  /* bottom-left */
+     2px  2px 0 #80005b,  /* bottom-right */
+     0px  2px 0 #80005b,  /* bottom */
+     0px -2px 0 #80005b,  /* top */
+     2px  0px 0 #80005b,  /* right */
+    -2px  0px 0 #80005b;  /* left */
+}
+
+.services-heading-text-ads {
+  text-shadow:
+    -2px -2px 0 #000000,  /* top-left */
+     2px -2px 0 #000000,  /* top-right */
+    -2px  2px 0 #000000,  /* bottom-left */
+     2px  2px 0 #000000,  /* bottom-right */
+     0px  2px 0 #000000,  /* bottom */
+     0px -2px 0 #000000,  /* top */
+     2px  0px 0 #000000,  /* right */
+    -2px  0px 0 #000000;  /* left */
+}
+
+.services-heading-text-webdev {
+  color: #6d3fc8;
+  text-shadow:
+    -2px -2px 0 #ffffff,  /* top-left */
+     2px -2px 0 #ffffff,  /* top-right */
+    -2px  2px 0 #ffffff,  /* bottom-left */
+     2px  2px 0 #ffffff,  /* bottom-right */
+     0px  2px 0 #ffffff,  /* bottom */
+     0px -2px 0 #ffffff,  /* top */
+     2px  0px 0 #ffffff,  /* right */
+    -2px  0px 0 #ffffff;
+}
+
+.services-heading-text-branding {
+  color: #be412f;
+  text-shadow:
+    -2px -2px 0 #ffffff,  /* top-left */
+     2px -2px 0 #ffffff,  /* top-right */
+    -2px  2px 0 #ffffff,  /* bottom-left */
+     2px  2px 0 #ffffff,  /* bottom-right */
+     0px  2px 0 #ffffff,  /* bottom */
+     0px -2px 0 #ffffff,  /* top */
+     2px  0px 0 #ffffff,  /* right */
+    -2px  0px 0 #ffffff;  /* left */
+}
+

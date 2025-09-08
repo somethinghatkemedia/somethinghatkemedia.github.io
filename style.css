@@ -1,0 +1,102 @@
+.logo-image {
+  width: 8rem;
+}
+
+.heading-menu {
+  color: rgb(255, 255, 255);
+  font-family: "Nunito Sans", sans-serif;font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.contact-us-btn {
+  background-color: #bdf326;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 1.2rem;
+  border: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.home-banner-image {
+  width: 100%;
+  margin-top: -10rem;
+  z-index: -200;
+  position: relative;
+}
+
+.section-divs {
+  background-color: red;
+}
+
+.icon-carousel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+
+.icon-carousel .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-carousel img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #bdf326; /* Your brand green */
+  font-size: 1rem; /* Controls icon size */
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Optional: hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ffffff; /* Change color on hover */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #000000 !important;
+  font-size: 2rem !important;
+}
+
+.service-carousel {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.header-section header > div,
+.header-section header > ul,
+.header-section header > button {
+  margin-right: rem; /* Reduce or remove this to tighten spacing */
+}
+
+.header-section header > button {
+  margin-left: 2rem;
+  margin-right: auto;
+}
+
+.header-section header > ul {
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
+.header-section header > div {
+  margin-left: 6rem;
+  margin-right: auto;
+}
