@@ -31,7 +31,6 @@
   height: auto;
   object-fit: contain;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-nav {
@@ -40,7 +39,7 @@
 }
 
 .testimonial-carousel img {
-  width: 15rem;         /* Set desired width */
+  width: 20rem;         /* Set desired width */
   height: auto;         /* Maintain aspect ratio */
   object-fit: contain;  /* Prevent cropping */
   border-radius: 2rem;   /* Optional: rounded corners */
