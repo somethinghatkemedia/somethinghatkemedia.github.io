@@ -23,6 +23,7 @@
 
 .useful-links-items {
   color: white;
+  text-decoration: none;
 }
 
 .shm-text {
@@ -41,9 +42,9 @@
   margin-top: 0;
 }
 
-.useful-links-items:hover {
-  opacity: 0.5;
-  color: black;
+.useful-links-items:hover,
+.contact-details:hover {
+  color: #bdf326;
 }
 
 .social-media-icons-2 {
