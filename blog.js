@@ -30,9 +30,10 @@ fetch('blogs.json')
       const container = document.getElementById('blog-list');
       blogs.forEach(blog => {
         const card = document.createElement('div');
-        card.className = 'col-md-4';
+        card.className = 'col-md-3';
         card.innerHTML = `
-          <div class="blog-card">
+          <div class="blog-card" style="background-color: rgb(15, 15, 15);
+  border: 2px solid #6b6b6b;">
             <img src="${blog.image}" alt="${blog.title}" class="blog-image" />
             <h3 class="blog-title">${blog.title}</h3>
             <p class="blog-summary">${blog.summary}</p>

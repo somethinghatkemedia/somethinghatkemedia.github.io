@@ -1,0 +1,217 @@
+/* ================================
+   Contact page – brand styling
+   ================================ */
+
+:root {
+  --brand: #be412f;
+  --brand-accent: #bdf326;
+  --bg: #0b0b0b;
+  --text: #f5f5f5;
+  --muted: #b9b9b9;
+  --stroke: rgba(255, 255, 255, 0.08);
+  --shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+body {
+  padding-top: 100px; /* Only if header is fixed */
+  margin: 0;
+}
+
+
+/* Page scaffold */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Fixed header offset (adjust if needed) */
+body {
+  padding-top: 100px;
+}
+
+/* Section + heading */
+.contact-section {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.contact-section h2 {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 1.5rem;
+}
+
+.contact-section h2::after {
+  content: "";
+  display: block;
+  width: 12rem;
+  height: 3px;
+  margin: 12px auto 0;
+  background: linear-gradient(90deg, var(--brand), var(--brand-accent));
+  border-radius: 2px;
+}
+
+/* Form container card */
+.contact-card,
+.contact-section .col-md-8 {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+}
+
+/* Labels */
+.form-label {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+/* Inputs + selects + textareas */
+.form-control,
+.form-select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.form-control::placeholder {
+  color: var(--muted);
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--brand);
+  box-shadow: 0 0 0 0.2rem rgba(190, 65, 47, 0.25);
+  color: var(--text);
+  outline: none;
+}
+
+/* Textarea sizing */
+textarea.form-control {
+  min-height: 160px;
+  resize: vertical;
+}
+
+/* Primary button (Send Message) */
+.btn-primary {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #a93829;
+  border-color: #a93829;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(190, 65, 47, 0.28);
+}
+
+/* Secondary actions (WhatsApp / Call / Email) */
+.btn-success {
+  background: #1fa855;
+  border-color: #1fa855;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.btn-outline-dark,
+.btn-outline-primary {
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.btn-outline-dark {
+  color: #eaeaea;
+  border-color: rgba(255, 255, 255, 0.22);
+}
+.btn-outline-dark:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.36);
+  color: #fff;
+}
+
+.btn-outline-primary {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+.btn-outline-primary:hover {
+  background: rgba(190, 65, 47, 0.12);
+  border-color: var(--brand);
+  color: #fff;
+}
+
+/* Helper text, small notes */
+.form-text,
+.small,
+.text-muted {
+  color: var(--muted) !important;
+}
+
+/* Spacing for the “Or reach out directly” area */
+.contact-section .mt-4.text-center p {
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.contact-section .mt-4 .btn {
+  margin-bottom: 0.5rem;
+}
+
+/* Focus ring refinement for accessibility */
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(189, 243, 38, 0.25);
+  outline: none;
+}
+
+/* Links inside the form (if any) */
+.contact-section a {
+  text-decoration: none;
+}
+
+/* Footer tweaks for dark bg */
+.footer-div {
+  border-top: 1px solid var(--stroke);
+}
+.footer-div .shm-text,
+.footer-div .shm-text-2,
+.footer-div .useful-links-heading,
+.footer-div .useful-links-items,
+.footer-div .contact-details {
+  color: var(--text);
+}
+.footer-div .useful-links-items:hover {
+  color: var(--brand-accent);
+}
+
+/* Copyright */
+.copyright-section {
+  color: var(--muted);
+  margin-top: 1.25rem;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  body { padding-top: 88px; }
+  .contact-section .col-md-8 { padding: 1.25rem; }
+}
+
+@media (max-width: 575px) {
+  body { padding-top: 80px; }
+  .contact-section { padding-top: 2rem; padding-bottom: 3rem; }
+  .btn { width: 100%; }
+  .contact-section .mt-4 .btn { width: auto; } /* keep inline if preferred */
+}

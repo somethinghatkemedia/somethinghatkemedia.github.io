@@ -4,7 +4,7 @@
     "title": "How Meta Ads Can Transform Local Businesses",
     "summary": "Discover how targeted Meta campaigns helped a semi-urban gym triple its leads.",
     "content": "<p>Meta Ads offer hyper-local targeting...</p><p>We ran a 14-day campaign with ₹2,000 budget and saw ....</p>",
-    "image": "assets/blog/blog1.jpg",
+    "image": "assets/blog/blog-1.png",
     "externalLink": "https://example.com/full-case-study",
     "author": "Subhajit",
     "date": "2025-09-08"
@@ -14,7 +14,45 @@
     "title": "SEO in 2025: What Still Works",
     "summary": "Organic traffic isn’t dead. Here’s what’s still driving results.",
     "content": "<p>Search algorithms have evolved...</p><ul><li>Keyword intent</li><li>Fast-loading pages</li></ul>",
-    "image": "assets/blog/blog2.jpg",
+    "image": "assets/blog/blog-2.png",
+    "externalLink": "",
+    "author": "Something Hatke Media",
+    "date": "2025-09-07"
+  },{
+    "id": "blog-001",
+    "title": "How Meta Ads Can Transform Local Businesses",
+    "summary": "Discover how targeted Meta campaigns helped a semi-urban gym triple its leads.",
+    "content": "<p>Meta Ads offer hyper-local targeting...</p><p>We ran a 14-day campaign with ₹2,000 budget and saw ....</p>",
+    "image": "assets/blog/blog-1.png",
+    "externalLink": "https://example.com/full-case-study",
+    "author": "Subhajit",
+    "date": "2025-09-08"
+  },
+  {
+    "id": "blog-002",
+    "title": "SEO in 2025: What Still Works",
+    "summary": "Organic traffic isn’t dead. Here’s what’s still driving results.",
+    "content": "<p>Search algorithms have evolved...</p><ul><li>Keyword intent</li><li>Fast-loading pages</li></ul>",
+    "image": "assets/blog/blog-2.png",
+    "externalLink": "",
+    "author": "Something Hatke Media",
+    "date": "2025-09-07"
+  },{
+    "id": "blog-001",
+    "title": "How Meta Ads Can Transform Local Businesses",
+    "summary": "Discover how targeted Meta campaigns helped a semi-urban gym triple its leads.",
+    "content": "<p>Meta Ads offer hyper-local targeting...</p><p>We ran a 14-day campaign with ₹2,000 budget and saw ....</p>",
+    "image": "assets/blog/blog-1.png",
+    "externalLink": "https://example.com/full-case-study",
+    "author": "Subhajit",
+    "date": "2025-09-08"
+  },
+  {
+    "id": "blog-002",
+    "title": "SEO in 2025: What Still Works",
+    "summary": "Organic traffic isn’t dead. Here’s what’s still driving results.",
+    "content": "<p>Search algorithms have evolved...</p><ul><li>Keyword intent</li><li>Fast-loading pages</li></ul>",
+    "image": "assets/blog/blog-2.png",
     "externalLink": "",
     "author": "Something Hatke Media",
     "date": "2025-09-07"

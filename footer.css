@@ -5,6 +5,7 @@
   background-repeat: no-repeat; /* Prevents tiling */
   height: 40rempx;
   padding: 2rem;
+  margin: 0;
 }
 
 .footer-shm-icon {
