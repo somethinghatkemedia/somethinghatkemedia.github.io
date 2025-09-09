@@ -54,6 +54,7 @@
 .contact-details {
   color: white;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .useful-links-heading {
@@ -68,5 +69,6 @@
   background-color: #002375;
   color: rgb(255, 255, 255);
   padding: 1rem;
+  margin-bottom: 0;
 }
 

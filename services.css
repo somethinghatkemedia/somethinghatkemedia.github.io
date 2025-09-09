@@ -131,3 +131,57 @@
     -2px  0px 0 #ffffff;  /* left */
 }
 
+/* CODES FOR SERVICES.HTML */
+
+.services-section-2 {
+  background-color: #000; /* Black background */
+  color: #fff;
+}
+
+.services-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.services-intro {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #ccc;
+}
+
+.service-card {
+  background-color: rgb(15, 15, 15);
+  border: 2px solid #6b6b6b; /* Your brand red */
+  border-radius: 12px;
+  padding:60px 2rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: #bdf326; /* Optional: hover color */
+}
+
+.service-icon {
+  width: 10rem;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+.service-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+body {
+  background-color: black;
+}
