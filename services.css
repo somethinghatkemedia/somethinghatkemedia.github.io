@@ -65,7 +65,14 @@
 }
 
 .section-illustrations {
-  width: 30rem;
+  width: 20rem; /* Default for mobile */
+}
+
+/* Desktop override */
+@media (min-width: 768px) {
+  .section-illustrations {
+    width: 30rem;
+  }
 }
 
 .services-heading-text-seo {
